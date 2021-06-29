@@ -1,9 +1,1 @@
-[
-  {
-    "id": "1",
-    "title": "First blog post",
-    "location": "Florida, USA",
-    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, mollitia!",
-    "published_at": "2021-06-29 20:20"
-  }
-]
+[{"id":"_abw0o4bti","title":"My first blog post","description":"This was really nice trip to the MagicLand","location":"Nevada","published_at":"2021-06-29T18:20:43.013Z"},{"id":"_qbn7f70cn","title":"My first blog post","description":"This was really nice trip to the MagicLand","location":"Nevada","published_at":"2021-06-29T18:21:06.851Z"}]

@@ -10,3 +10,16 @@ block content
 
 
     .container.px-4.px-lg-5
+        form(action='/create' method='POST')
+            .mb-3
+                label.form-label(for='title') Title
+                input#title.form-control(name='title' type='text' aria-describedby='#titleHelp')
+                #titleHelp.form-text Give the name to this post
+            .mb-3
+                label.form-label(for='description') Description
+                textarea#description.form-control(name='description' rows='7')
+            .mb-3
+                label.form-label(for='location') Location
+                input#location.form-control(name='location' type='text' aria-describedby='#locationHelp')
+                #locationHelp.form-text Mark the location
+            button.btn.btn-primary.mb-3(type='submit') Submit

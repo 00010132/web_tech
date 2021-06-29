@@ -1,0 +1,16 @@
+extends layout
+
+block content
+    header.masthead
+        .container.position-relative.px-4.px-lg-5
+            .row.gx-4.gx-lg-5.justify-content-center
+                .col-md-10.col-lg-8.col-xl-7
+                    .site-heading
+                        h1 View post
+                        span.subheading #{post.title}
+
+    .container.px-4.px-lg-5
+        h1 #{post.title}
+        small.text-muted #{post.location}
+        p #{post.description}
+        small.text-muted #{post.published_at}
