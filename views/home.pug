@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    header.masthead(style="background-image: url('/static/assets/img/home-bg.jpg')")
+        .container.position-relative.px-4.px-lg-5
+            .row.gx-4.gx-lg-5.justify-content-center
+                .col-md-10.col-lg-8.col-xl-7
+                    .site-heading
+                        h1 Personal Blog
+                        span.subheading Personal Blog of John Doe
+                        a.btn.btn-secondary.mt-5(href='/create')
+                            | Create New Blog Post &nbsp;
+                            i.fas.fa-plus
+
+    .row.gx-4.gx-lg-5.justify-content-center
+        .col-md-10.col-lg-8.col-xl-7
+             each post in posts
+                 // Post preview
+                 .post-preview
+                     a(href='/post/id')
+                         h2.post-title= post.title
+                         h3.post-subtitle= post.description
+                     p.post-meta
+                         | Posted by Me
+                         | #{post.published_at}
+                 // Divider
+                 hr.my-4

@@ -1,0 +1,9 @@
+[
+  {
+    "id": "1",
+    "title": "First blog post",
+    "location": "Florida, USA",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, mollitia!",
+    "published_at": "2021-06-29 20:20"
+  }
+]
